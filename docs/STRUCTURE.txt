@@ -1,0 +1,17 @@
+HelioFisica-FTRT/
+├── ftrt_core.py           # Calculadora principal FTRT
+├── historical_database.py # Base de datos 1749-2024
+├── prediction_engine.py   # Motor predictivo
+├── validation_suite.py    # Suite de validación
+├── docs/
+├── data/
+│   ├── solar_events.csv   # Eventos solares históricos
+│   ├── planetary_data/    # Efemérides planetarias
+│   └── correlations.json  # Correlaciones calculadas
+├── examples/
+│   ├── basic_usage.py     # Ejemplos de uso
+│   ├── case_studies.py    # Estudios de caso 2003/2024
+│   └── predictions.py     # Predicciones futuras
+└── tests/
+    ├── test_ftrt_calc.py  # Tests unitarios
+    └── test_correlations.py # Validaciones estadísticas
