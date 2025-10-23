@@ -1,0 +1,14 @@
+# .github/workflows/deploy.yml
+name: Deploy FTRT System
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Tests
+        run: python -m pytest
+      - name: Deploy to Production
+        run: ./deploy.sh
