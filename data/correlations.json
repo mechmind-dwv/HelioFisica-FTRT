@@ -1,0 +1,31 @@
+{
+  "ftrt_correlations": {
+    "ftrt_vs_storm_magnitude": {
+      "r_value": 0.78,
+      "p_value": 0.0001,
+      "sample_size": 275,
+      "confidence_interval": "0.72-0.83",
+      "description": "Correlación entre FTRT y magnitud de tormentas solares"
+    },
+    "ftrt_vs_dst_index": {
+      "r_value": -0.75,
+      "p_value": 0.0002,
+      "sample_size": 168,
+      "confidence_interval": "-0.69 - -0.80",
+      "description": "Correlación entre FTRT e índice Dst geomagnético"
+    },
+    "ftrt_vs_cme_speed": {
+      "r_value": 0.82,
+      "p_value": 0.00005,
+      "sample_size": 89,
+      "confidence_interval": "0.76-0.87",
+      "description": "Correlación entre FTRT y velocidad de CMEs"
+    }
+  },
+  "predictive_metrics": {
+    "accuracy_ftrt_gt_1_5": 0.84,
+    "false_positive_rate": 0.08,
+    "warning_lead_time_days": 14,
+    "confidence_interval": "0.79-0.89"
+  }
+}
