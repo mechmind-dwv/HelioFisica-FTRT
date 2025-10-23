@@ -1,0 +1,11 @@
+event_date,event_type,magnitude,carrington_rotation,region_number,flare_class,cme_speed,dst_index,kp_index,aurora_latitude,sources,verified
+1859-09-01,Carrington,10.0,892,,X45+,2500,-1760,9,15.0,"Carrington, Hodgson",True
+1921-05-13,Great Storm,9.0,1003,,X25,,-900,9,25.0,NOAA archives,True
+1989-03-13,Quebec Blackout,8.5,1815,,X15,1500,-589,9,30.0,"NASA, Hydro-Quebec",True
+2003-10-29,Halloween Storms,9.5,2005,10486,X45,2300,-383,9,28.0,"NASA SOHO, GOES",True
+2012-07-23,Near Miss,8.7,2120,,X14,2800,,,,"STEREO-A",True
+2024-05-10,May Storm,8.9,2278,3664,X8.7,2000,-412,9,25.0,"SDO, GOES-18",True
+2000-07-14,Bastille Day,8.6,1967,9077,X5.7,1700,-301,9,35.0,"SOHO, GOES",True
+2001-04-02,April Storms,8.8,1980,9415,X20,2500,-387,9,30.0,"SOHO, GOES",True
+2005-09-07,September Storm,8.7,2024,10808,X17,2500,-147,9,40.0,"SOHO, GOES",True
+2006-12-05,December Storm,8.5,2049,10930,X9.0,1800,-120,8,45.0,"SOHO, GOES",True
