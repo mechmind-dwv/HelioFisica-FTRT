@@ -10,7 +10,9 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 import warnings
+import time
 from config.global_variables import *
+from utils.logger import ftrt_logger
 warnings.filterwarnings('ignore')
 
 # Intentar importar ephem, si falla usar versión simple
@@ -143,38 +145,53 @@ class FTRTCalculator:
         """
         Calcula FTRT total sumando contribuciones planetarias
         """
+        inicio = time.time()
+        
         # Primero verificar si tenemos datos precalculados
         fecha_str = fecha.strftime('%Y-%m-%d')
         if fecha_str in self.datos_precalculados:
             ftrt_norm = self.datos_precalculados[fecha_str]
-            return {
+            resultado = {
                 'ftrt_total': ftrt_norm * 1e15,
                 'ftrt_normalizada': ftrt_norm,
                 'contribuciones': self._contribuciones_estimadas(ftrt_norm),
                 'fecha': fecha,
                 'metodo': 'precalculado'
             }
+            
+            duracion = time.time() - inicio
+            ftrt_logger.log_calculo_ftrt(fecha, resultado, duracion)
+            return resultado
         
         # Si no, calcular normalmente
-        ftrt_total = 0
-        contribuciones = {}
-        
-        for planeta in self.MASAS.keys():
-            ftrt_individual = self.calcular_ftrt_individual(planeta, fecha)
-            ftrt_total += ftrt_individual
-            contribuciones[planeta] = ftrt_individual
+        try:
+            ftrt_total = 0
+            contribuciones = {}
             
-        # Normalización respecto a Júpiter
-        ftrt_jupiter = contribuciones.get('jupiter', 1e-15)
-        ftrt_normalizada = ftrt_total / ftrt_jupiter if ftrt_jupiter > 0 else 0
-        
-        return {
-            'ftrt_total': ftrt_total,
-            'ftrt_normalizada': ftrt_normalizada,
-            'contribuciones': contribuciones,
-            'fecha': fecha,
-            'metodo': 'calculado'
-        }
+            for planeta in self.MASAS.keys():
+                ftrt_individual = self.calcular_ftrt_individual(planeta, fecha)
+                ftrt_total += ftrt_individual
+                contribuciones[planeta] = ftrt_individual
+                
+            # Normalización respecto a Júpiter
+            ftrt_jupiter = contribuciones.get('jupiter', 1e-15)
+            ftrt_normalizada = ftrt_total / ftrt_jupiter if ftrt_jupiter > 0 else 0
+            
+            resultado = {
+                'ftrt_total': ftrt_total,
+                'ftrt_normalizada': ftrt_normalizada,
+                'contribuciones': contribuciones,
+                'fecha': fecha,
+                'metodo': 'calculado'
+            }
+            
+            duracion = time.time() - inicio
+            ftrt_logger.log_calculo_ftrt(fecha, resultado, duracion)
+            return resultado
+            
+        except Exception as e:
+            ftrt_logger.error(f"Error en cálculo FTRT: {e}")
+            raise
     
     def _contribuciones_estimadas(self, ftrt_norm):
         """Estima contribuciones basadas en FTRT normalizada"""
@@ -212,29 +229,36 @@ class FTRTCalculator:
         """
         Genera alerta basada en FTRT calculada
         """
-        resultado = self.calculador_ftrt_total(fecha)
-        ftrt_norm = resultado['ftrt_normalizada']
-        
-        nivel, color = self.evaluar_riesgo(ftrt_norm)
-        
-        alerta = {
-            'fecha': fecha,
-            'ftrt_normalizada': round(ftrt_norm, 3),
-            'nivel_riesgo': nivel,
-            'color_alerta': color,
-            'metodo_calculo': resultado.get('metodo', 'desconocido')
-        }
-        
-        # Añadir contribuciones principales si están disponibles
-        if 'contribuciones' in resultado:
-            contribs_principales = dict(sorted(
-                resultado['contribuciones'].items(),
-                key=lambda x: x[1],
-                reverse=True
-            )[:3])
-            alerta['contribuciones_principales'] = contribs_principales
-        
-        return alerta
+        try:
+            resultado = self.calculador_ftrt_total(fecha)
+            ftrt_norm = resultado['ftrt_normalizada']
+            
+            nivel, color = self.evaluar_riesgo(ftrt_norm)
+            
+            alerta = {
+                'fecha': fecha,
+                'ftrt_normalizada': round(ftrt_norm, 3),
+                'nivel_riesgo': nivel,
+                'color_alerta': color,
+                'metodo_calculo': resultado.get('metodo', 'desconocido')
+            }
+            
+            # Añadir contribuciones principales si están disponibles
+            if 'contribuciones' in resultado:
+                contribs_principales = dict(sorted(
+                    resultado['contribuciones'].items(),
+                    key=lambda x: x[1],
+                    reverse=True
+                )[:3])
+                alerta['contribuciones_principales'] = contribs_principales
+            
+            # Registrar alerta en el log
+            ftrt_logger.log_alerta(alerta)
+            return alerta
+            
+        except Exception as e:
+            ftrt_logger.error(f"Error generando alerta: {e}")
+            raise
 
     # ✅ CORRECCIÓN: Añadir método faltante
     def calculador_ftrt_total(self, fecha):
