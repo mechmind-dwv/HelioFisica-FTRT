@@ -7,7 +7,7 @@
 - **Época de Referencia**: J2000.0
 - **Fuente de Datos**: NASA JPL Horizons System
 - **Unidades de Distancia**: Unidades Astronómicas (UA)
-- **Precisión Temporal**: ± 0.001 días
+- **Precisión Temporal**: + 0.001 días
 
 **Parámetros Planetarios Utilizados:**
 
@@ -44,7 +44,7 @@ Radio_solar = 6.957 × 10⁸ m
 | Urano | 19.812 | 336.2 | -0.7 | 0.005 |
 | Neptuno | 29.934 | 285.3 | 1.1 | 0.002 |
 
-**FTRT Total 2003-10-29**: 4.873 ± 0.015
+**FTRT Total 2003-10-29**: 4.873 + 0.015
 
 **Configuración Planetaria**: Agrupamiento en cuadrante 135-225°
 
@@ -63,7 +63,7 @@ Radio_solar = 6.957 × 10⁸ m
 | Urano | 19.992 | 58.3 | -0.6 | 0.005 |
 | Neptuno | 30.127 | 357.2 | 0.9 | 0.002 |
 
-**FTRT Total 2024-05-10**: 1.341 ± 0.008
+**FTRT Total 2024-05-10**: 1.341 + 0.008
 
 **Configuración Planetaria**: Desfile 6 planetas < 90°
 
@@ -137,7 +137,7 @@ R² = 0.86, p < 0.0001
 **Checksums de Datos:**
 - Hash MD5 posiciones 2003: a84b2c7e1f9d3c6a8b4e
 - Hash MD5 posiciones 2024: c93d5e7a2b8f4e1c6a9d
-- Precisión efemérides: ± 0.0001 UA
+- Precisión efemérides: + 0.0001 UA
 - Error FTRT acumulado: < 2%
 
 **Validación Cruzada:**
