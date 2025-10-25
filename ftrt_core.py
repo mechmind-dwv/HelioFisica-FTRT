@@ -148,7 +148,7 @@ class FTRTCalculator:
         inicio = time.time()
         
         # Primero verificar si tenemos datos precalculados
-        fecha_str = fecha('%Y-%m-%d')
+        fecha_str = fecha.strftime('%Y-%m-%d') if hasattr(fecha, 'strftime') else str(fecha)
         if fecha_str in self.datos_precalculados:
             ftrt_norm = self.datos_precalculados[fecha_str]
             resultado = {

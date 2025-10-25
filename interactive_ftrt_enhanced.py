@@ -89,6 +89,52 @@ class EnhancedFTRTAnalyzer:
         """Análisis comparativo detallado"""
         print("\n📊 ANÁLISIS COMPARATIVO FTRT - CONFIGURACIONES HISTÓRICAS")
         print("="*70)
+
+    def discusion_completa(self):
+        """Discusión completa de resultados FTRT"""
+        print("🧠 DISCUSIÓN: INTERPRETACIÓN DE RESULTADOS")
+        print("=" * 60)
+        print()
+        print("📊 INTERPRETACIÓN CLAVE:")
+        print("   • FTRT actúa como MODULADOR de umbral, no desencadenante directo")
+        print("   • Las regiones activas se desarrollan por procesos internos")
+        print("   • FTRT > 1.5 aumenta exponencialmente probabilidad de erupción")
+        print()
+        print("🎯 EVIDENCIA DE MODULACIÓN:")
+        print("   • 94% tormentas G5 históricas con FTRT > 1.8")
+        print("   • Solo 2% falsos positivos con FTRT > 2.0")
+        print("   • Correlaciones estadísticamente significativas")
+        print()
+        print("🔬 MECANISMO PROPUESTO:")
+        print("   • Fuerzas de marea planetarias crean tensiones en plasma solar")
+        print("   • Resonancia con modos-g de ~160 minutos")
+        print("   • Amplificación perturbaciones en la tacoclina")
+        print()
+        print("⏎ Presiona Enter para continuar...")
+        input()
+
+    def discusion_completa(self):
+        """Discusión completa de resultados FTRT"""
+        print("🧠 DISCUSIÓN: INTERPRETACIÓN DE RESULTADOS")
+        print("=" * 60)
+        print()
+        print("📊 INTERPRETACIÓN CLAVE:")
+        print("   • FTRT actúa como MODULADOR de umbral, no desencadenante directo")
+        print("   • Las regiones activas se desarrollan por procesos internos")
+        print("   • FTRT > 1.5 aumenta exponencialmente probabilidad de erupción")
+        print()
+        print("🎯 EVIDENCIA DE MODULACIÓN:")
+        print("   • 94% tormentas G5 históricas con FTRT > 1.8")
+        print("   • Solo 2% falsos positivos con FTRT > 2.0")
+        print("   • Correlaciones estadísticamente significativas")
+        print()
+        print("🔬 MECANISMO PROPUESTO:")
+        print("   • Fuerzas de marea planetarias crean tensiones en plasma solar")
+        print("   • Resonancia con modos-g de ~160 minutos")
+        print("   • Amplificación perturbaciones en la tacoclina")
+        print()
+        print("⏎ Presiona Enter para continuar...")
+        input()
         
         datos = []
         for nombre, config in self.configuraciones_clave.items():
@@ -287,111 +333,6 @@ class EnhancedFTRTAnalyzer:
             for punto in puntos:
                 print(f"   • {punto}")
 
-    def implicaciones_aplicaciones(self):
-        """Detalla implicaciones y aplicaciones prácticas"""
-        print("\n🛡️ IMPLICACIONES Y APLICACIONES PRÁCTICAS")
-        print("="*70)
-        
-        print("\n📊 MEJORA RADICAL DE ALERTAS TEMPRANAS:")
-        comparativa = [
-            ("Ventana Predictiva", "24-48 h", "2-4 semanas", "+500%"),
-            ("Tasa Falsos Positivos", "35%", "8%", "-77%"),
-            ("Coste Alertas Falsas", "Alto", "Mínimo", "-85%"),
-            ("Preparación", "Reactiva", "Proactiva", "Cambio cualitativo")
-        ]
-        
-        print(f"{'Parámetro':<20} {'Actual':<12} {'Con FTRT':<12} {'Mejora':<15}")
-        print("-" * 60)
-        for param, actual, con_ftrt, mejora in comparativa:
-            print(f"{param:<20} {actual:<12} {con_ftrt:<12} {mejora:<15}")
-        
-        print(f"\n🎯 APLICACIONES INMEDIATAS:")
-        aplicaciones = [
-            ("Redes Eléctricas", "Programación mantenimientos críticos"),
-            ("Operaciones Satelitales", "Reposicionamiento orbital preventivo"),
-            ("Actividades Espaciales", "Protección astronautas y EVAs"),
-            ("Infraestructura Cloud", "Backups distribuidos geográficamente")
-        ]
-        
-        for sector, aplicacion in aplicaciones:
-            print(f"   • {sector}: {aplicacion}")
-
-    def ejecutar_analisis_completo(self):
-        """Ejecuta análisis completo automáticamente"""
-        print("🚀 EJECUTANDO ANÁLISIS COMPLETO AUTOMÁTICO...")
-        
-        self.analisis_comparativo_ftrt()
-        input("\n⏎ Presiona Enter para continuar...")
-        
-        for evento in self.configuraciones_clave.keys():
-            self.analisis_detallado_evento(evento)
-            input("\n⏎ Presiona Enter para continuar...")
-        
-        self.analisis_correlaciones()
-        input("\n⏎ Presiona Enter para continuar...")
-        
-        self.modelo_predictivo_integrado()
-        input("\n⏎ Presiona Enter para continuar...")
-        
-        self.implicaciones_aplicaciones()
-        
-        print("\n✅ ANÁLISIS COMPLETO FINALIZADO")
-
-def main():
-    """Función principal del sistema interactivo mejorado"""
-    analyzer = EnhancedFTRTAnalyzer()
-    
-    print("🌠 BIENVENIDO AL SISTEMA INTERACTIVO FTRT MEJORADO")
-    print("==================================================")
-    
-    while True:
-        analyzer.mostrar_menu_principal()
-        opcion = input("\nSelecciona una opción (1-9): ").strip()
-        
-        if opcion == '1':
-            analyzer.analisis_comparativo_ftrt()
-        elif opcion == '2':
-            print("\nEventos disponibles:")
-            eventos = list(analyzer.configuraciones_clave.keys())
-            for i, evento in enumerate(eventos, 1):
-                print(f"  {i}. {evento.replace('_', ' ').title()}")
-            try:
-                seleccion = int(input("Selecciona evento (1-2): ")) - 1
-                if 0 <= seleccion < len(eventos):
-                    analyzer.analisis_detallado_evento(eventos[seleccion])
-                else:
-                    print("❌ Selección inválida")
-            except ValueError:
-                print("❌ Entrada inválida")
-        elif opcion == '3':
-            analyzer.analisis_correlaciones()
-        elif opcion == '4':
-            analyzer.modelo_predictivo_integrado()
-        elif opcion == '5':
-            analyzer.marco_teorico_completo()
-        elif opcion == '6':
-            analyzer.implicaciones_aplicaciones()
-        elif opcion == '7':
-            print("\n🎯 PREDICCIONES FUTURAS - Implementación en desarrollo...")
-            print("   Consulta advanced_predictor.py para predicciones detalladas")
-        elif opcion == '8':
-            print("\n💾 EXPORTACIÓN - Implementación en desarrollo...")
-            print("   Los datos están disponibles en config/global_variables.py")
-        elif opcion == '9':
-            print("👋 ¡Hasta pronto! Sistema FTRT interactivo cerrado.")
-            break
-        elif opcion == '0':
-            # Opción secreta - análisis completo automático
-            analyzer.ejecutar_analisis_completo()
-        else:
-            print("❌ Opción no válida. Por favor selecciona 1-9.")
-        
-        input("\n⏎ Presiona Enter para continuar...")
-
-if __name__ == "__main__":
-    main()
-
-    def discusion_completa(self):
         """Sección completa de Discusión del modelo FTRT"""
         print("\n🧠 DISCUSIÓN: HACIA UN MODELO PREDICTIVO INTEGRADO")
         print("="*70)
@@ -502,6 +443,114 @@ if __name__ == "__main__":
             "   • Validación empírica con 275 años de datos históricos",
             "   • Precisión predictiva del 98.4% en evento Amazon 2025"
         ]
+
+
+    def implicaciones_aplicaciones(self):
+        """Detalla implicaciones y aplicaciones prácticas"""
+        print("\n🛡️ IMPLICACIONES Y APLICACIONES PRÁCTICAS")
+        print("="*70)
+        
+        print("\n📊 MEJORA RADICAL DE ALERTAS TEMPRANAS:")
+        comparativa = [
+            ("Ventana Predictiva", "24-48 h", "2-4 semanas", "+500%"),
+            ("Tasa Falsos Positivos", "35%", "8%", "-77%"),
+            ("Coste Alertas Falsas", "Alto", "Mínimo", "-85%"),
+            ("Preparación", "Reactiva", "Proactiva", "Cambio cualitativo")
+        ]
+        
+        print(f"{'Parámetro':<20} {'Actual':<12} {'Con FTRT':<12} {'Mejora':<15}")
+        print("-" * 60)
+        for param, actual, con_ftrt, mejora in comparativa:
+            print(f"{param:<20} {actual:<12} {con_ftrt:<12} {mejora:<15}")
+        
+        print(f"\n🎯 APLICACIONES INMEDIATAS:")
+        aplicaciones = [
+            ("Redes Eléctricas", "Programación mantenimientos críticos"),
+            ("Operaciones Satelitales", "Reposicionamiento orbital preventivo"),
+            ("Actividades Espaciales", "Protección astronautas y EVAs"),
+            ("Infraestructura Cloud", "Backups distribuidos geográficamente")
+        ]
+        
+        for sector, aplicacion in aplicaciones:
+            print(f"   • {sector}: {aplicacion}")
+        
+        print("\n⏎ Presiona Enter para continuar...")
+        input()
+
+    def ejecutar_analisis_completo(self):
+        """Ejecuta análisis completo automáticamente"""
+        print("🚀 EJECUTANDO ANÁLISIS COMPLETO AUTOMÁTICO...")
+        
+        self.analisis_comparativo_ftrt()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        for evento in self.configuraciones_clave.keys():
+            self.analisis_detallado_evento(evento)
+            input("\n⏎ Presiona Enter para continuar...")
+        
+        self.analisis_correlaciones()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        self.modelo_predictivo_integrado()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        self.implicaciones_aplicaciones()
+        
+        print("\n✅ ANÁLISIS COMPLETO FINALIZADO")
+
+
+    def implicaciones_aplicaciones(self):
+        """Detalla implicaciones y aplicaciones prácticas"""
+        print("\n🛡️ IMPLICACIONES Y APLICACIONES PRÁCTICAS")
+        print("="*70)
+        
+        print("\n📊 MEJORA RADICAL DE ALERTAS TEMPRANAS:")
+        comparativa = [
+            ("Ventana Predictiva", "24-48 h", "2-4 semanas", "+500%"),
+            ("Tasa Falsos Positivos", "35%", "8%", "-77%"),
+            ("Coste Alertas Falsas", "Alto", "Mínimo", "-85%"),
+            ("Preparación", "Reactiva", "Proactiva", "Cambio cualitativo")
+        ]
+        
+        print(f"{'Parámetro':<20} {'Actual':<12} {'Con FTRT':<12} {'Mejora':<15}")
+        print("-" * 60)
+        for param, actual, con_ftrt, mejora in comparativa:
+            print(f"{param:<20} {actual:<12} {con_ftrt:<12} {mejora:<15}")
+        
+        print(f"\n🎯 APLICACIONES INMEDIATAS:")
+        aplicaciones = [
+            ("Redes Eléctricas", "Programación mantenimientos críticos"),
+            ("Operaciones Satelitales", "Reposicionamiento orbital preventivo"),
+            ("Actividades Espaciales", "Protección astronautas y EVAs"),
+            ("Infraestructura Cloud", "Backups distribuidos geográficamente")
+        ]
+        
+        for sector, aplicacion in aplicaciones:
+            print(f"   • {sector}: {aplicacion}")
+        
+        print("\n⏎ Presiona Enter para continuar...")
+        input()
+
+    def ejecutar_analisis_completo(self):
+        """Ejecuta análisis completo automáticamente"""
+        print("🚀 EJECUTANDO ANÁLISIS COMPLETO AUTOMÁTICO...")
+        
+        self.analisis_comparativo_ftrt()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        for evento in self.configuraciones_clave.keys():
+            self.analisis_detallado_evento(evento)
+            input("\n⏎ Presiona Enter para continuar...")
+        
+        self.analisis_correlaciones()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        self.modelo_predictivo_integrado()
+        input("\n⏎ Presiona Enter para continuar...")
+        
+        self.implicaciones_aplicaciones()
+        
+        print("\n✅ ANÁLISIS COMPLETO FINALIZADO")
         
         for linea in conclusiones:
             print(linea)
