@@ -1,0 +1,600 @@
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 3.210[0m
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 4.870[0m
+2025-10-25 01:19:17 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:19:17 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.340[0m
+2025-10-25 01:21:04 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-27 | FTRT: 1.910 | ⏱️ 0.043s[0m
+2025-10-25 01:21:04 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-28 | FTRT: 1.904 | ⏱️ 0.002s[0m
+2025-10-25 01:21:04 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-29 | FTRT: 1.896 | ⏱️ 0.002s[0m
+2025-10-25 01:21:04 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-30 | FTRT: 1.887 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-31 | FTRT: 1.877 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-02 | FTRT: 1.855 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-03 | FTRT: 1.843 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-04 | FTRT: 1.831 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-05 | FTRT: 1.819 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-08 | FTRT: 11.099 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-09 | FTRT: 10.803 | ⏱️ 0.003s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-10 | FTRT: 10.504 | ⏱️ 0.003s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-11 | FTRT: 10.204 | ⏱️ 0.003s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-12 | FTRT: 9.905 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1921-05-13 | FTRT: 2.450 | ⏱️ 0.000s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-14 | FTRT: 9.317 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-15 | FTRT: 9.031 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-16 | FTRT: 8.751 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-17 | FTRT: 8.478 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-08 | FTRT: 1.612 | ⏱️ 0.002s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-09 | FTRT: 1.616 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-10 | FTRT: 1.621 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-11 | FTRT: 1.625 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-12 | FTRT: 1.630 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1989-03-13 | FTRT: 1.890 | ⏱️ 0.000s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-14 | FTRT: 1.639 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-15 | FTRT: 1.643 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-16 | FTRT: 1.648 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-17 | FTRT: 1.652 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-24 | FTRT: 2.318 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-25 | FTRT: 2.300 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-26 | FTRT: 2.282 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-27 | FTRT: 2.265 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-28 | FTRT: 2.248 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-30 | FTRT: 2.216 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-31 | FTRT: 2.201 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-01 | FTRT: 2.185 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-02 | FTRT: 2.171 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-05 | FTRT: 1.935 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-06 | FTRT: 1.931 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-07 | FTRT: 1.927 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-08 | FTRT: 1.923 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-09 | FTRT: 1.920 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-11 | FTRT: 1.913 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-12 | FTRT: 1.910 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-13 | FTRT: 1.907 | ⏱️ 0.001s[0m
+2025-10-25 01:21:05 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-14 | FTRT: 1.905 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.545[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-26 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.540[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-27 | FTRT: 1.536 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.536[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-28 | FTRT: 1.532 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.532[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-29 | FTRT: 1.527 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.527[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-30 | FTRT: 1.523 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.523[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-31 | FTRT: 1.519 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.519[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-01 | FTRT: 1.515 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.515[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-02 | FTRT: 1.512 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.512[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-03 | FTRT: 1.508 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.508[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-04 | FTRT: 1.505 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.505[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-05 | FTRT: 1.502 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.502[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-06 | FTRT: 1.499 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.499[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-07 | FTRT: 1.496 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.496[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-08 | FTRT: 1.494 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.494[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-09 | FTRT: 1.492 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.492[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-10 | FTRT: 1.490 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.490[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-11 | FTRT: 1.488 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.488[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-12 | FTRT: 1.486 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.486[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-13 | FTRT: 1.484 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.484[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-14 | FTRT: 1.483 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.483[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-15 | FTRT: 1.481 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.481[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-16 | FTRT: 1.479 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.479[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-17 | FTRT: 1.477 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.477[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-18 | FTRT: 1.474 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.474[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-19 | FTRT: 1.471 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.471[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-20 | FTRT: 1.467 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.467[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-21 | FTRT: 1.462 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.462[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-22 | FTRT: 1.457 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.457[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-23 | FTRT: 1.451 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.451[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-15 | FTRT: 16.534 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-16 | FTRT: 17.007 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-17 | FTRT: 17.451 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-18 | FTRT: 17.860 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-19 | FTRT: 18.230 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-20 | FTRT: 18.555 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-21 | FTRT: 18.831 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-22 | FTRT: 19.056 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-23 | FTRT: 19.226 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-24 | FTRT: 19.340 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-25 | FTRT: 19.396 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-20 | FTRT: 2.797 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-21 | FTRT: 2.773 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-22 | FTRT: 2.751 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-23 | FTRT: 2.729 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-24 | FTRT: 2.708 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-25 | FTRT: 2.688 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-26 | FTRT: 2.668 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-27 | FTRT: 2.650 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-28 | FTRT: 2.632 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-29 | FTRT: 2.615 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-30 | FTRT: 2.599 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-01 | FTRT: 2.584 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-02 | FTRT: 2.569 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-03 | FTRT: 2.555 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-04 | FTRT: 2.542 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-05 | FTRT: 2.529 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-20 | FTRT: 1.749 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-21 | FTRT: 1.743 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-22 | FTRT: 1.736 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-23 | FTRT: 1.729 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-24 | FTRT: 1.723 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-25 | FTRT: 1.716 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-26 | FTRT: 1.710 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-27 | FTRT: 1.703 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-28 | FTRT: 1.697 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-29 | FTRT: 1.691 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-30 | FTRT: 1.684 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-01 | FTRT: 1.678 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-02 | FTRT: 1.672 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-03 | FTRT: 1.666 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-04 | FTRT: 1.660 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-05 | FTRT: 1.654 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-15 | FTRT: 1.351 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-16 | FTRT: 1.349 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-17 | FTRT: 1.346 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-18 | FTRT: 1.344 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-19 | FTRT: 1.342 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-20 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-21 | FTRT: 1.338 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-22 | FTRT: 1.337 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-23 | FTRT: 1.335 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-24 | FTRT: 1.334 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-25 | FTRT: 1.332 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-26 | FTRT: 1.331 | ⏱️ 0.001s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-27 | FTRT: 1.330 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-28 | FTRT: 1.328 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-29 | FTRT: 1.327 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-30 | FTRT: 1.326 | ⏱️ 0.000s[0m
+2025-10-25 01:21:06 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 3.210[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 4.870[0m
+2025-10-25 01:29:39 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:29:39 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.340[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-27 | FTRT: 1.910 | ⏱️ 0.016s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-28 | FTRT: 1.904 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-29 | FTRT: 1.896 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-30 | FTRT: 1.887 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-31 | FTRT: 1.877 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-02 | FTRT: 1.855 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-03 | FTRT: 1.843 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-04 | FTRT: 1.831 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-05 | FTRT: 1.819 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-08 | FTRT: 11.099 | ⏱️ 0.002s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-09 | FTRT: 10.803 | ⏱️ 0.002s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-10 | FTRT: 10.504 | ⏱️ 0.002s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-11 | FTRT: 10.204 | ⏱️ 0.002s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-12 | FTRT: 9.905 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1921-05-13 | FTRT: 2.450 | ⏱️ 0.000s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-14 | FTRT: 9.317 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-15 | FTRT: 9.031 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-16 | FTRT: 8.751 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-17 | FTRT: 8.478 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-08 | FTRT: 1.612 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-09 | FTRT: 1.616 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-10 | FTRT: 1.621 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-11 | FTRT: 1.625 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-12 | FTRT: 1.630 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1989-03-13 | FTRT: 1.890 | ⏱️ 0.000s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-14 | FTRT: 1.639 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-15 | FTRT: 1.643 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-16 | FTRT: 1.648 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-17 | FTRT: 1.652 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-24 | FTRT: 2.318 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-25 | FTRT: 2.300 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-26 | FTRT: 2.282 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-27 | FTRT: 2.265 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-28 | FTRT: 2.248 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-30 | FTRT: 2.216 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-31 | FTRT: 2.201 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-01 | FTRT: 2.185 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-02 | FTRT: 2.171 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-05 | FTRT: 1.935 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-06 | FTRT: 1.931 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-07 | FTRT: 1.927 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-08 | FTRT: 1.923 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-09 | FTRT: 1.920 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-11 | FTRT: 1.913 | ⏱️ 0.001s[0m
+2025-10-25 01:31:51 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-12 | FTRT: 1.910 | ⏱️ 0.001s[0m
+2025-10-25 01:31:52 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-13 | FTRT: 1.907 | ⏱️ 0.001s[0m
+2025-10-25 01:31:52 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-14 | FTRT: 1.905 | ⏱️ 0.001s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.001s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.545[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-26 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.540[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-27 | FTRT: 1.536 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.536[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-28 | FTRT: 1.532 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.532[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-29 | FTRT: 1.527 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.527[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-30 | FTRT: 1.523 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.523[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-31 | FTRT: 1.519 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.519[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-01 | FTRT: 1.515 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.515[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-02 | FTRT: 1.512 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.512[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-03 | FTRT: 1.508 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.508[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-04 | FTRT: 1.505 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.505[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-05 | FTRT: 1.502 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.502[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-06 | FTRT: 1.499 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.499[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-07 | FTRT: 1.496 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.496[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-08 | FTRT: 1.494 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.494[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-09 | FTRT: 1.492 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.492[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-10 | FTRT: 1.490 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.490[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-11 | FTRT: 1.488 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.488[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-12 | FTRT: 1.486 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.486[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-13 | FTRT: 1.484 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.484[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-14 | FTRT: 1.483 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.483[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-15 | FTRT: 1.481 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.481[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-16 | FTRT: 1.479 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.479[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-17 | FTRT: 1.477 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.477[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-18 | FTRT: 1.474 | ⏱️ 0.000s[0m
+2025-10-25 01:31:52 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.474[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-19 | FTRT: 1.471 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.471[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-20 | FTRT: 1.467 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.467[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-21 | FTRT: 1.462 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.462[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-22 | FTRT: 1.457 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.457[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-23 | FTRT: 1.451 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.451[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-15 | FTRT: 16.534 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-16 | FTRT: 17.007 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-17 | FTRT: 17.451 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-18 | FTRT: 17.860 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-19 | FTRT: 18.230 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-20 | FTRT: 18.555 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-21 | FTRT: 18.831 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-22 | FTRT: 19.056 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-23 | FTRT: 19.226 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-24 | FTRT: 19.340 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-25 | FTRT: 19.396 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-20 | FTRT: 2.797 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-21 | FTRT: 2.773 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-22 | FTRT: 2.751 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-23 | FTRT: 2.729 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-24 | FTRT: 2.708 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-25 | FTRT: 2.688 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-26 | FTRT: 2.668 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-27 | FTRT: 2.650 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-28 | FTRT: 2.632 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-29 | FTRT: 2.615 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-30 | FTRT: 2.599 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-01 | FTRT: 2.584 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-02 | FTRT: 2.569 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-03 | FTRT: 2.555 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-04 | FTRT: 2.542 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-05 | FTRT: 2.529 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-20 | FTRT: 1.749 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-21 | FTRT: 1.743 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-22 | FTRT: 1.736 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-23 | FTRT: 1.729 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-24 | FTRT: 1.723 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-25 | FTRT: 1.716 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-26 | FTRT: 1.710 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-27 | FTRT: 1.703 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-28 | FTRT: 1.697 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-29 | FTRT: 1.691 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-30 | FTRT: 1.684 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-01 | FTRT: 1.678 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-02 | FTRT: 1.672 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-03 | FTRT: 1.666 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-04 | FTRT: 1.660 | ⏱️ 0.001s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-05 | FTRT: 1.654 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-15 | FTRT: 1.351 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-16 | FTRT: 1.349 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-17 | FTRT: 1.346 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-18 | FTRT: 1.344 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-19 | FTRT: 1.342 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-20 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-21 | FTRT: 1.338 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-22 | FTRT: 1.337 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-23 | FTRT: 1.335 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-24 | FTRT: 1.334 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-25 | FTRT: 1.332 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-26 | FTRT: 1.331 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-27 | FTRT: 1.330 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-28 | FTRT: 1.328 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-29 | FTRT: 1.327 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-30 | FTRT: 1.326 | ⏱️ 0.000s[0m
+2025-10-25 01:31:53 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-27 | FTRT: 1.910 | ⏱️ 0.001s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-28 | FTRT: 1.904 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-29 | FTRT: 1.896 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-30 | FTRT: 1.887 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-08-31 | FTRT: 1.877 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-02 | FTRT: 1.855 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-03 | FTRT: 1.843 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-04 | FTRT: 1.831 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1859-09-05 | FTRT: 1.819 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-08 | FTRT: 11.099 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-09 | FTRT: 10.803 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-10 | FTRT: 10.504 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-11 | FTRT: 10.204 | ⏱️ 0.001s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-12 | FTRT: 9.905 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1921-05-13 | FTRT: 2.450 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-14 | FTRT: 9.317 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-15 | FTRT: 9.031 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-16 | FTRT: 8.751 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1921-05-17 | FTRT: 8.478 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-08 | FTRT: 1.612 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-09 | FTRT: 1.616 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-10 | FTRT: 1.621 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-11 | FTRT: 1.625 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-12 | FTRT: 1.630 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 1989-03-13 | FTRT: 1.890 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-14 | FTRT: 1.639 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-15 | FTRT: 1.643 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-16 | FTRT: 1.648 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 1989-03-17 | FTRT: 1.652 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-24 | FTRT: 2.318 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-25 | FTRT: 2.300 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-26 | FTRT: 2.282 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-27 | FTRT: 2.265 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-28 | FTRT: 2.248 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-30 | FTRT: 2.216 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-10-31 | FTRT: 2.201 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-01 | FTRT: 2.185 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2003-11-02 | FTRT: 2.171 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-05 | FTRT: 1.935 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-06 | FTRT: 1.931 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-07 | FTRT: 1.927 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-08 | FTRT: 1.923 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-09 | FTRT: 1.920 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-11 | FTRT: 1.913 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-12 | FTRT: 1.910 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-13 | FTRT: 1.907 | ⏱️ 0.000s[0m
+2025-10-25 01:36:41 | ERROR    | FTRT | [91m📊 Cálculo FTRT - 2024-05-14 | FTRT: 1.905 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.545[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-26 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.540[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-27 | FTRT: 1.536 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.536[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-28 | FTRT: 1.532 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.532[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-29 | FTRT: 1.527 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.527[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-30 | FTRT: 1.523 | ⏱️ 0.001s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.523[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-31 | FTRT: 1.519 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.519[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-01 | FTRT: 1.515 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.515[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-02 | FTRT: 1.512 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.512[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-03 | FTRT: 1.508 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.508[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-04 | FTRT: 1.505 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.505[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-05 | FTRT: 1.502 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.502[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-06 | FTRT: 1.499 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.499[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-07 | FTRT: 1.496 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.496[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-08 | FTRT: 1.494 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.494[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-09 | FTRT: 1.492 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.492[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-10 | FTRT: 1.490 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.490[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-11 | FTRT: 1.488 | ⏱️ 0.001s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.488[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-12 | FTRT: 1.486 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.486[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-13 | FTRT: 1.484 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.484[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-14 | FTRT: 1.483 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.483[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-15 | FTRT: 1.481 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.481[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-16 | FTRT: 1.479 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.479[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-17 | FTRT: 1.477 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.477[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-18 | FTRT: 1.474 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.474[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-19 | FTRT: 1.471 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.471[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-20 | FTRT: 1.467 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.467[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-21 | FTRT: 1.462 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.462[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-22 | FTRT: 1.457 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.457[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-11-23 | FTRT: 1.451 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.451[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-15 | FTRT: 16.534 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-16 | FTRT: 17.007 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-17 | FTRT: 17.451 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-18 | FTRT: 17.860 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-19 | FTRT: 18.230 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-20 | FTRT: 18.555 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-21 | FTRT: 18.831 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-22 | FTRT: 19.056 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-23 | FTRT: 19.226 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-24 | FTRT: 19.340 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-25 | FTRT: 19.396 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-20 | FTRT: 2.797 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-21 | FTRT: 2.773 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-22 | FTRT: 2.751 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-23 | FTRT: 2.729 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-24 | FTRT: 2.708 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-25 | FTRT: 2.688 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-26 | FTRT: 2.668 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-27 | FTRT: 2.650 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-28 | FTRT: 2.632 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-29 | FTRT: 2.615 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-06-30 | FTRT: 2.599 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-01 | FTRT: 2.584 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-02 | FTRT: 2.569 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-03 | FTRT: 2.555 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-04 | FTRT: 2.542 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-07-05 | FTRT: 2.529 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-20 | FTRT: 1.749 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-21 | FTRT: 1.743 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-22 | FTRT: 1.736 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-23 | FTRT: 1.729 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-24 | FTRT: 1.723 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-25 | FTRT: 1.716 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-26 | FTRT: 1.710 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-27 | FTRT: 1.703 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-28 | FTRT: 1.697 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-29 | FTRT: 1.691 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-09-30 | FTRT: 1.684 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-01 | FTRT: 1.678 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-02 | FTRT: 1.672 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-03 | FTRT: 1.666 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-04 | FTRT: 1.660 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-05 | FTRT: 1.654 | ⏱️ 0.001s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-15 | FTRT: 1.351 | ⏱️ 0.001s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-16 | FTRT: 1.349 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-17 | FTRT: 1.346 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-18 | FTRT: 1.344 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-19 | FTRT: 1.342 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-20 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-21 | FTRT: 1.338 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-22 | FTRT: 1.337 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-23 | FTRT: 1.335 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-24 | FTRT: 1.334 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-25 | FTRT: 1.332 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-26 | FTRT: 1.331 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-27 | FTRT: 1.330 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-28 | FTRT: 1.328 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-29 | FTRT: 1.327 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-30 | FTRT: 1.326 | ⏱️ 0.000s[0m
+2025-10-25 01:36:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 3.210[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 4.870[0m
+2025-10-25 01:36:56 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:36:56 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.340[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 3.210[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 4.870[0m
+2025-10-25 01:39:36 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 01:39:36 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.340[0m
+2025-10-25 16:12:26 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 16:12:26 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 16:12:26 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:17:46 | ERROR    | FTRT | [91mError en cálculo FTRT: 'str' object has no attribute 'strftime'[0m
+2025-10-25 17:18:33 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.000s[0m
+2025-10-25 17:19:16 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 17:19:16 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:19:16 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:20:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 17:20:51 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:20:51 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-15 | FTRT: 16.534 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2025-03-15 | FTRT: 16.534 | ⏱️ 0.000s[0m
+2025-10-25 17:21:18 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.001s[0m
+2025-10-25 17:21:18 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-10-25 | FTRT: 1.545 | ⏱️ 0.000s[0m
+2025-10-25 17:30:24 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 17:30:24 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:30:24 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:30:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 17:30:42 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:30:42 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:31:24 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 17:31:24 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:31:24 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:32:13 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 17:32:13 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:32:13 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:32:27 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 17:32:27 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 17:32:27 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 17:34:03 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 17:35:47 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 17:45:02 | ERROR    | FTRT | [91mError en cálculo FTRT: 'str' object has no attribute 'strftime'[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 1859-09-01 | FTRT: 3.210 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 3.210[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2003-10-29 | FTRT: 4.870 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | CRITICAL | FTRT | [95m⚠️ EXTREMO 💜 | FTRT: 4.870[0m
+2025-10-25 21:02:13 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2024-05-10 | FTRT: 1.340 | ⏱️ 0.000s[0m
+2025-10-25 21:02:13 | WARNING  | FTRT | [93m⚠️ ELEVADO 🟠 | FTRT: 1.340[0m
+2025-10-25 21:09:40 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.001s[0m
+2025-10-25 21:09:40 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 21:09:40 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
+2025-10-25 21:10:09 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2025-12-31 | FTRT: 1.325 | ⏱️ 0.000s[0m
+2025-10-25 21:10:09 | WARNING  | FTRT | [93m📊 Cálculo FTRT - 2026-03-20 | FTRT: 1.540 | ⏱️ 0.000s[0m
+2025-10-25 21:10:09 | CRITICAL | FTRT | [95m📊 Cálculo FTRT - 2026-09-15 | FTRT: 8.168 | ⏱️ 0.000s[0m
