@@ -1,0 +1,8 @@
+  const SOL_FREQ = 432;
+  const celestialBodies = [
+      freq: SOL_FREQ * 1, 
+      freq: SOL_FREQ * (1/3), 
+      freq: SOL_FREQ * (3/8), 
+      freq: SOL_FREQ * (2/5), 
+      freq: SOL_FREQ * (4/9), 
+      freq: SOL_FREQ * (15/32), 
