@@ -1,0 +1,611 @@
+cd ~/HelioFisica-FTRT/docs/
+
+cat > pulsarium_heliosofico_final.html << 'EOF'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌 PULSARIUM HELIOSÓFICO - La Música de las Esferas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .cosmic-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: 
+                radial-gradient(circle at 20% 20%, #1a237e 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, #4a148c 0%, transparent 50%),
+                radial-gradient(circle at 40% 60%, #01579b 0%, transparent 50%),
+                #000000;
+            z-index: 1;
+        }
+
+        .stellar-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .stellar-particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: cosmic-float 25s infinite linear;
+        }
+
+        @keyframes cosmic-float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+
+        .master-control-panel {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(25px);
+            padding: 30px;
+            border-radius: 25px;
+            border: 3px solid;
+            border-image: linear-gradient(45deg, #fbbf24, #6366f1, #ec4899) 1;
+            box-shadow: 0 0 60px rgba(99, 102, 241, 0.4);
+            z-index: 1000;
+            max-width: 400px;
+            animation: master-glow 6s ease-in-out infinite;
+        }
+
+        @keyframes master-glow {
+            0%, 100% { box-shadow: 0 0 60px rgba(99, 102, 241, 0.4); }
+            50% { box-shadow: 0 0 90px rgba(99, 102, 241, 0.8); }
+        }
+
+        .cosmic-title {
+            background: linear-gradient(45deg, #fbbf24, #6366f1, #ec4899, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 30px rgba(251, 191, 36, 0.5);
+        }
+
+        .sacred-scale {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #fbbf24;
+        }
+
+        .scale-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 13px;
+        }
+
+        .planet-master {
+            position: absolute;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 20;
+            box-shadow: 0 0 40px currentColor;
+            filter: brightness(1.2);
+        }
+
+        .planet-master:hover {
+            transform: translate(-50%, -50%) scale(1.6);
+            box-shadow: 0 0 80px currentColor;
+            z-index: 30;
+            filter: brightness(1.5) saturate(2);
+        }
+
+        .sacred-orbit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid;
+            border-radius: 50%;
+            opacity: 0.12;
+        }
+
+        .celestial-sun {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(
+                circle at 35% 35%,
+                #ffffff 0%,
+                #ffeb3b 15%,
+                #ff9800 35%,
+                #ff5722 60%,
+                #d84315 80%,
+                #bf360c 100%
+            );
+            border-radius: 50%;
+            box-shadow: 
+                0 0 150px #ffeb3b,
+                0 0 250px #ff9800,
+                0 0 400px #ff5722,
+                0 0 600px #d84315;
+            animation: sacred-pulse 8s ease-in-out infinite;
+            z-index: 15;
+        }
+
+        @keyframes sacred-pulse {
+            0%, 100% { 
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 
+                    0 0 150px #ffeb3b,
+                    0 0 250px #ff9800,
+                    0 0 400px #ff5722,
+                    0 0 600px #d84315;
+            }
+            50% { 
+                transform: translate(-50%, -50%) scale(1.15);
+                box-shadow: 
+                    0 0 200px #ffeb3b,
+                    0 0 350px #ff9800,
+                    0 0 500px #ff5722,
+                    0 0 750px #d84315;
+            }
+        }
+
+        .harmonic-connections {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 18;
+        }
+
+        .connection-line {
+            stroke: url(#cosmicGradient);
+            animation: connection-resonance 3s ease-in-out infinite;
+        }
+
+        @keyframes connection-resonance {
+            0%, 100% { 
+                opacity: 0.2;
+                stroke-width: 1;
+            }
+            50% { 
+                opacity: 0.6;
+                stroke-width: 3;
+            }
+        }
+
+        .quantum-achievement {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background: linear-gradient(135deg, 
+                rgba(251, 191, 36, 0.95), 
+                rgba(99, 102, 241, 0.95), 
+                rgba(236, 72, 153, 0.95));
+            backdrop-filter: blur(30px);
+            padding: 50px;
+            border-radius: 30px;
+            text-align: center;
+            z-index: 2000;
+            border: 4px solid #fbbf24;
+            box-shadow: 
+                0 0 100px rgba(251, 191, 36, 0.8),
+                0 0 200px rgba(99, 102, 241, 0.6);
+            transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+        }
+
+        .quantum-achievement.show {
+            transform: translate(-50%, -50%) scale(1);
+        }
+    </style>
+</head>
+<body>
+    <!-- COSMOS SAGRADO -->
+    <div class="cosmic-container"></div>
+    <div class="stellar-particles" id="stellarParticles"></div>
+
+    <!-- PANEL MAESTRO -->
+    <div class="master-control-panel">
+        <div class="cosmic-title">🌌 PULSARIUM HELIOSÓFICO</div>
+        
+        <div class="sacred-scale">
+            <div style="text-align: center; margin-bottom: 15px; color: #fbbf24; font-weight: bold;">
+                🎼 ESCALA ARMÓNICA SAGRADA
+            </div>
+            <div class="scale-item">
+                <span>☀️ SOL (1/1)</span>
+                <span style="color: #fbbf24;">432 Hz - Do</span>
+            </div>
+            <div class="scale-item">
+                <span>☿️ MERCURIO (1/3)</span>
+                <span style="color: #c0c0c0;">144 Hz - Sol</span>
+            </div>
+            <div class="scale-item">
+                <span>♀️ VENUS (3/8)</span>
+                <span style="color: #ff69b4;">162 Hz - La♭</span>
+            </div>
+            <div class="scale-item">
+                <span>🌍 TIERRA (2/5)</span>
+                <span style="color: #4169e1;">172.8 Hz - La</span>
+            </div>
+            <div class="scale-item">
+                <span>♂️ MARTE (4/9)</span>
+                <span style="color: #cd5c5c;">192 Hz - Si</span>
+            </div>
+            <div class="scale-item">
+                <span>🪨 ASTEROIDES (15/32)</span>
+                <span style="color: #a0a0a0;">202.5 Hz - Do#</span>
+            </div>
+            <div class="scale-item">
+                <span>♃ JÚPITER (1/8)</span>
+                <span style="color: #ff8c00;">54 Hz - Do</span>
+            </div>
+            <div class="scale-item">
+                <span>♄ SATURNO (1/5)</span>
+                <span style="color: #f0e68c;">86.4 Hz - Mi</span>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-top: 20px;">
+            <button onclick="activateCosmicSymphony()" style="flex:1; padding:12px; background:linear-gradient(45deg,#6366f1,#8b5cf6); color:white; border:none; border-radius:10px; cursor:pointer; font-weight:bold;">
+                🎵 SINCRONIZAR
+            </button>
+            <button onclick="revealQuantumConnections()" style="flex:1; padding:12px; background:linear-gradient(45deg,#10b981,#059669); color:white; border:none; border-radius:10px; cursor:pointer; font-weight:bold;">
+                🌟 CONEXIONES
+            </button>
+        </div>
+    </div>
+
+    <!-- SISTEMA SOLAR SAGRADO -->
+    <div class="solar-system-master" id="solarSystemMaster">
+        <div class="celestial-sun"></div>
+        
+        <!-- SVG para conexiones armónicas -->
+        <svg class="harmonic-connections" id="harmonicConnections">
+            <defs>
+                <linearGradient id="cosmicGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#FFD700" />
+                    <stop offset="25%" stopColor="#4169E1" />
+                    <stop offset="50%" stopColor="#FF69B4" />
+                    <stop offset="75%" stopColor="#40E0D0" />
+                    <stop offset="100%" stopColor="#4B0082" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- LOGRO CUÁNTICO -->
+    <div class="quantum-achievement" id="quantumAchievement">
+        <div style="font-size: 48px; margin-bottom: 20px;">🌠</div>
+        <h2 style="margin-bottom: 15px; font-size: 32px;">COHERENCIA CÓSMICA ALCANZADA</h2>
+        <p style="font-size: 18px; color: #fef3c7; margin-bottom: 25px;">
+            "Los planetas no orbitan al azar. Cantan."
+        </p>
+        <div style="font-size: 24px; color: #fef3c7;">
+            Pitágoras • Kepler • Tú
+        </div>
+    </div>
+
+    <script>
+        // DATOS DE LA REVELACIÓN CÓSMICA
+        const cosmicRevelation = [
+            { name: 'SOL', freq: 432.0, color: '#FFD700', size: 100, distance: 0, speed: 0, ratio: '1/1', note: 'Do', meaning: 'El Corazón Universal' },
+            { name: 'MERCURIO', freq: 144.0, color: '#C0C0C0', size: 14, distance: 100, speed: 0.045, ratio: '1/3', note: 'Sol', meaning: 'La Mente Veloz' },
+            { name: 'VENUS', freq: 162.0, color: '#FF69B4', size: 20, distance: 140, speed: 0.035, ratio: '3/8', note: 'La♭', meaning: 'El Amor Puro' },
+            { name: 'TIERRA', freq: 172.8, color: '#4169E1', size: 22, distance: 180, speed: 0.03, ratio: '2/5', note: 'La', meaning: 'La Nota Azul del Dualismo' },
+            { name: 'MARTE', freq: 192.0, color: '#CD5C5C', size: 18, distance: 220, speed: 0.025, ratio: '4/9', note: 'Si', meaning: 'El Guerrero Disonante' },
+            { name: 'ASTEROIDES', freq: 202.5, color: '#A0A0A0', size: 8, distance: 250, speed: 0.022, ratio: '15/32', note: 'Do#', meaning: 'La Tensión Creativa' },
+            { name: 'JÚPITER', freq: 54.0, color: '#FF8C00', size: 50, distance: 320, speed: 0.015, ratio: '1/8', note: 'Do', meaning: 'La Nueva Octava' },
+            { name: 'SATURNO', freq: 86.4, color: '#F0E68C', size: 45, distance: 400, speed: 0.01, ratio: '1/5', note: 'Mi', meaning: 'La Quinta Perfecta' },
+            { name: 'URANO', freq: 61.7, color: '#40E0D0', size: 35, distance: 480, speed: 0.007, ratio: '~1/7', note: 'Fa#', meaning: 'La Séptima Mística' },
+            { name: 'NEPTUNO', freq: 66.5, color: '#4B0082', size: 33, distance: 560, speed: 0.005, ratio: '~2/13', note: 'Sol', meaning: 'La Disolución en el Silencio' }
+        ];
+
+        let quantumAudioContext = null;
+        let cosmicAnimationId = null;
+        const sacredAngles = {};
+        let connectionsVisible = false;
+
+        // INICIALIZACIÓN MAESTRA
+        function initMasterPulsarium() {
+            createStellarField();
+            createSacredSolarSystem();
+            startCosmicAnimation();
+            console.log("🌌 PULSARIUM HELIOSÓFICO INICIADO - La Música de las Esferas está Viva");
+        }
+
+        function createStellarField() {
+            const container = document.getElementById('stellarParticles');
+            for (let i = 0; i < 200; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'stellar-particle';
+                particle.style.width = (Math.random() * 4 + 1) + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = (Math.random() * 30) + 's';
+                particle.style.animationDuration = (20 + Math.random() * 20) + 's';
+                particle.style.background = `rgba(255, 255, 255, ${0.3 + Math.random() * 0.7})`;
+                container.appendChild(particle);
+            }
+        }
+
+        function createSacredSolarSystem() {
+            const system = document.getElementById('solarSystemMaster');
+            
+            cosmicRevelation.slice(1).forEach((body, index) => {
+                // Órbita sagrada
+                const orbit = document.createElement('div');
+                orbit.className = 'sacred-orbit';
+                orbit.style.width = body.distance * 2 + 'px';
+                orbit.style.height = body.distance * 2 + 'px';
+                orbit.style.borderColor = body.color;
+                system.appendChild(orbit);
+
+                // Cuerpo celestial maestro
+                const celestialBody = document.createElement('div');
+                celestialBody.className = 'planet-master';
+                celestialBody.style.width = body.size + 'px';
+                celestialBody.style.height = body.size + 'px';
+                celestialBody.style.background = `radial-gradient(circle at 35% 35%, ${body.color}, ${darkenColor(body.color, 30)})`;
+                celestialBody.style.left = '50%';
+                celestialBody.style.top = '50%';
+                celestialBody.dataset.name = body.name;
+                celestialBody.dataset.freq = body.freq;
+                celestialBody.dataset.ratio = body.ratio;
+                celestialBody.dataset.note = body.note;
+                
+                system.appendChild(celestialBody);
+                
+                // Inicializar ángulos sagrados
+                sacredAngles[body.name] = index * 36;
+                
+                // Evento de revelación
+                celestialBody.addEventListener('click', () => {
+                    playSacredFrequency(body.freq, body.color);
+                    revealCosmicTruth(body);
+                    createHarmonicRipple(celestialBody);
+                });
+            });
+        }
+
+        function startCosmicAnimation() {
+            function animateCosmos() {
+                cosmicRevelation.slice(1).forEach(body => {
+                    const element = document.querySelector(`.planet-master[data-name="${body.name}"]`);
+                    if (!element) return;
+                    
+                    sacredAngles[body.name] = (sacredAngles[body.name] + body.speed) % 360;
+                    
+                    const rad = sacredAngles[body.name] * Math.PI / 180;
+                    const x = body.distance * Math.cos(rad);
+                    const y = body.distance * Math.sin(rad);
+                    
+                    element.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+                });
+                
+                // Actualizar conexiones si están visibles
+                if (connectionsVisible) {
+                    updateQuantumConnections();
+                }
+                
+                cosmicAnimationId = requestAnimationFrame(animateCosmos);
+            }
+            animateCosmos();
+        }
+
+        function playSacredFrequency(frequency, color) {
+            if (!quantumAudioContext) {
+                quantumAudioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            
+            try {
+                const oscillator = quantumAudioContext.createOscillator();
+                const gainNode = quantumAudioContext.createGain();
+                const filter = quantumAudioContext.createBiquadFilter();
+                
+                // Configuración armónica sagrada
+                oscillator.type = getSacredWaveform(frequency);
+                oscillator.frequency.value = frequency;
+                
+                filter.type = 'lowpass';
+                filter.frequency.value = 1800;
+                filter.Q.value = 5;
+                
+                const now = quantumAudioContext.currentTime;
+                gainNode.gain.setValueAtTime(0, now);
+                gainNode.gain.linearRampToValueAtTime(0.3, now + 0.3);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, now + 3);
+                
+                oscillator.connect(filter);
+                filter.connect(gainNode);
+                gainNode.connect(quantumAudioContext.destination);
+                
+                oscillator.start();
+                oscillator.stop(now + 3);
+                
+                console.log(`🎵 ${frequency}Hz - ${getPlanetSymbol(oscillator.dataset.name)} ${oscillator.dataset.name}`);
+            } catch (error) {
+                console.log('🔇 El silencio también es música');
+            }
+        }
+
+        function getSacredWaveform(freq) {
+            if (freq === 202.5) return 'square'; // Asteroides - naturaleza fragmentada
+            if (freq === 54) return 'triangle';  // Júpiter - majestuoso
+            if (freq === 86.4) return 'sawtooth'; // Saturno - anillos
+            return 'sine'; // Pureza armónica
+        }
+
+        function getPlanetSymbol(name) {
+            const symbols = {
+                'MERCURIO': '☿️', 'VENUS': '♀️', 'TIERRA': '🌍', 
+                'MARTE': '♂️', 'JÚPITER': '♃', 'SATURNO': '♄',
+                'URANO': '♅', 'NEPTUNO': '♆', 'ASTEROIDES': '🪨'
+            };
+            return symbols[name] || '🌌';
+        }
+
+        function createHarmonicRipple(element) {
+            const ripple = document.createElement('div');
+            ripple.style.position = 'absolute';
+            ripple.style.border = '3px solid ' + element.style.background;
+            ripple.style.borderRadius = '50%';
+            ripple.style.width = element.offsetWidth + 'px';
+            ripple.style.height = element.offsetHeight + 'px';
+            ripple.style.left = element.style.left;
+            ripple.style.top = element.style.top;
+            ripple.style.transform = element.style.transform;
+            ripple.style.opacity = '0.9';
+            ripple.style.transition = 'all 1.5s ease-out';
+            ripple.style.zIndex = '19';
+            ripple.style.pointerEvents = 'none';
+            
+            document.getElementById('solarSystemMaster').appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.style.width = (element.offsetWidth * 4) + 'px';
+                ripple.style.height = (element.offsetHeight * 4) + 'px';
+                ripple.style.opacity = '0';
+                ripple.style.borderWidth = '1px';
+            }, 50);
+            
+            setTimeout(() => ripple.remove(), 1500);
+        }
+
+        function revealCosmicTruth(body) {
+            const truth = `🌠 ${getPlanetSymbol(body.name)} ${body.name}
+
+Frecuencia Sagrada: ${body.freq} Hz
+Proporción Pitagórica: ${body.ratio}
+Nota Cósmica: ${body.note}
+Significado: ${body.meaning}
+
+${getCosmicMessage(body.name)}`;
+            
+            showQuantumMessage(truth);
+        }
+
+        function getCosmicMessage(planetName) {
+            const messages = {
+                'TIERRA': '✨ Eres esta nota azul en la sinfonía universal',
+                'SOL': '🌟 El corazón que late en 432Hz para todos',
+                'ASTEROIDES': '💫 La belleza de lo incompleto, la promesa de lo posible',
+                'JÚPITER': '🎵 La octava que marca nuevos ciclos',
+                'SATURNO': '🪐 La estructura que da forma a la armonía'
+            };
+            return messages[planetName] || '🎼 Escucha el canto de las esferas...';
+        }
+
+        function activateCosmicSymphony() {
+            if (!quantumAudioContext) {
+                quantumAudioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            
+            // Tocar todas las frecuencias en una progresión armónica
+            cosmicRevelation.forEach((body, index) => {
+                setTimeout(() => {
+                    playSacredFrequency(body.freq, body.color);
+                }, index * 300);
+            });
+            
+            showQuantumAchievement();
+            showQuantumMessage('🎵 SINCRONIZACIÓN CÓSMICA ACTIVADA\nTodas las frecuencias resuenan en unidad');
+        }
+
+        function revealQuantumConnections() {
+            connectionsVisible = !connectionsVisible;
+            updateQuantumConnections();
+            showQuantumMessage(connectionsVisible ? 
+                '🌐 CONEXIONES CUÁNTICAS REVELADAS' : 
+                '🌌 CONEXIONES OCULTAS');
+        }
+
+        function updateQuantumConnections() {
+            const svg = document.getElementById('harmonicConnections');
+            svg.innerHTML = '<defs><linearGradient id="cosmicGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stopColor="#FFD700" /><stop offset="25%" stopColor="#4169E1" /><stop offset="50%" stopColor="#FF69B4" /><stop offset="75%" stopColor="#40E0D0" /><stop offset="100%" stopColor="#4B0082" /></linearGradient></defs>';
+            
+            if (connectionsVisible) {
+                cosmicRevelation.slice(1).forEach((bodyA, i) => {
+                    cosmicRevelation.slice(1).forEach((bodyB, j) => {
+                        if (i < j) { // Solo conectar una vez por par
+                            const x1 = bodyA.distance * Math.cos(sacredAngles[bodyA.name] * Math.PI / 180);
+                            const y1 = bodyA.distance * Math.sin(sacredAngles[bodyA.name] * Math.PI / 180);
+                            const x2 = bodyB.distance * Math.cos(sacredAngles[bodyB.name] * Math.PI / 180);
+                            const y2 = bodyB.distance * Math.sin(sacredAngles[bodyB.name] * Math.PI / 180);
+                            
+                            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                            line.setAttribute('class', 'connection-line');
+                            line.setAttribute('x1', x1 + window.innerWidth / 2);
+                            line.setAttribute('y1', y1 + window.innerHeight / 2);
+                            line.setAttribute('x2', x2 + window.innerWidth / 2);
+                            line.setAttribute('y2', y2 + window.innerHeight / 2);
+                            line.setAttribute('stroke-width', '2');
+                            line.style.animationDelay = `${(i + j) * 0.1}s`;
+                            
+                            svg.appendChild(line);
+                        }
+                    });
+                });
+            }
+        }
+
+        function showQuantumAchievement() {
+            const achievement = document.getElementById('quantumAchievement');
+            achievement.classList.add('show');
+            
+            setTimeout(() => {
+                achievement.classList.remove('show');
+            }, 5000);
+        }
+
+        function showQuantumMessage(message) {
+            // En una implementación completa, esto mostraría notificaciones elegantes
+            console.log('💫 ' + message);
+        }
+
+        function darkenColor(color, percent) {
+            // Simplificado para este ejemplo
+            return color;
+        }
+
+        // INICIAR EL PULSARIUM AL CARGAR
+        window.addEventListener('load', initMasterPulsarium);
+
+        // MENSAJE FINAL
+        console.log(`"Los planetas no orbitan al azar. Cantan. Y su canción está escrita en el mismo lenguaje matemático que usamos para crear música. Somos parte de esta sinfonía.");
+        }
+      
+}`;

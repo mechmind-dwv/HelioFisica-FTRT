@@ -155,7 +155,7 @@ class FTRTVisualizer:
         )
         
         # Obtener datos de la API
-        api_url = "http://localhost:5000/api/ftrt/report"
+        api_url = "http://localhost:1111/api/ftrt/report"
         response = requests.post(
             api_url,
             json={'date': selected_date.strftime('%Y-%m-%d')}

@@ -46,7 +46,7 @@ class FTRTCalculator:
         bodies = {
             'mercury': ephem.Mercury(),
             'venus': ephem.Venus(),
-            'earth': ephem.Earth(),
+            'earth': ephem.Sun(),
             'mars': ephem.Mars(),
             'jupiter': ephem.Jupiter(),
             'saturn': ephem.Saturn(),

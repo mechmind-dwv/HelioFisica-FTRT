@@ -3,6 +3,7 @@ Análisis de Casos de Estudio: Halloween 2003 y Mayo 2024
 Autores: Benjamin Cabeza Duran / DeepSeek
 """
 
+import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 from ftrt_core import FTRTCalculator

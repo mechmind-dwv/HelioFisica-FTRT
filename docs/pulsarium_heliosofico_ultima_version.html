@@ -1,0 +1,4411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌 PULSARIUM HELIOSÓFICO - La Sinfonía Cósmica Viviente</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            cursor: crosshair;
+        }
+
+        .cosmic-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: 
+                radial-gradient(circle at 20% 20%, #1a237e 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, #4a148c 0%, transparent 50%),
+                radial-gradient(circle at 40% 60%, #01579b 0%, transparent 50%),
+                #000000;
+            z-index: 1;
+        }
+
+        .stellar-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .stellar-particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: cosmic-float 25s infinite linear;
+        }
+
+        @keyframes cosmic-float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+
+        .master-control-panel {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(25px);
+            padding: 30px;
+            border-radius: 25px;
+            border: 3px solid;
+            border-image: linear-gradient(45deg, #fbbf24, #6366f1, #ec4899) 1;
+            box-shadow: 0 0 60px rgba(99, 102, 241, 0.4);
+            z-index: 1000;
+            max-width: 400px;
+            animation: master-glow 6s ease-in-out infinite;
+        }
+
+        @keyframes master-glow {
+            0%, 100% { box-shadow: 0 0 60px rgba(99, 102, 241, 0.4); }
+            50% { box-shadow: 0 0 90px rgba(99, 102, 241, 0.8); }
+        }
+
+        .cosmic-title {
+            background: linear-gradient(45deg, #fbbf24, #6366f1, #ec4899, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 30px rgba(251, 191, 36, 0.5);
+        }
+
+        .sacred-scale {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #fbbf24;
+        }
+
+        .scale-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 13px;
+            transition: all 0.3s ease;
+        }
+
+        .scale-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .planet-master {
+            position: absolute;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 20;
+            box-shadow: 0 0 40px currentColor;
+            filter: brightness(1.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.8);
+        }
+
+        .planet-master:hover {
+            transform: translate(-50%, -50%) scale(1.8);
+            box-shadow: 0 0 80px currentColor;
+            z-index: 30;
+            filter: brightness(1.5) saturate(2);
+        }
+
+        .sacred-orbit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid;
+            border-radius: 50%;
+            opacity: 0.12;
+        }
+
+        .celestial-sun {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(
+                circle at 35% 35%,
+                #ffffff 0%,
+                #ffeb3b 15%,
+                #ff9800 35%,
+                #ff5722 60%,
+                #d84315 80%,
+                #bf360c 100%
+            );
+            border-radius: 50%;
+            box-shadow: 
+                0 0 150px #ffeb3b,
+                0 0 250px #ff9800,
+                0 0 400px #ff5722,
+                0 0 600px #d84315;
+            animation: sacred-pulse 8s ease-in-out infinite;
+            z-index: 15;
+            cursor: pointer;
+        }
+
+        @keyframes sacred-pulse {
+            0%, 100% { 
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 
+                    0 0 150px #ffeb3b,
+                    0 0 250px #ff9800,
+                    0 0 400px #ff5722,
+                    0 0 600px #d84315;
+            }
+            50% { 
+                transform: translate(-50%, -50%) scale(1.15);
+                box-shadow: 
+                    0 0 200px #ffeb3b,
+                    0 0 350px #ff9800,
+                    0 0 500px #ff5722,
+                    0 0 750px #d84315;
+            }
+        }
+
+        .harmonic-connections {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 18;
+        }
+
+        .connection-line {
+            stroke: url(#cosmicGradient);
+            animation: connection-resonance 3s ease-in-out infinite;
+        }
+
+        @keyframes connection-resonance {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            0%, 100% { 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                opacity: 0.2;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                stroke-width: 1;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            50% { 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                opacity: 0.6;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                stroke-width: 3;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .quantum-achievement {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            position: fixed;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            top: 50%;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            left: 50%;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translate(-50%, -50%) scale(0);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: linear-gradient(135deg, 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                rgba(251, 191, 36, 0.95), 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                rgba(99, 102, 241, 0.95), 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                rgba(236, 72, 153, 0.95));
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            backdrop-filter: blur(30px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            padding: 50px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 30px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            text-align: center;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            z-index: 2000;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border: 4px solid #fbbf24;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            box-shadow: 
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                0 0 100px rgba(251, 191, 36, 0.8),
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                0 0 200px rgba(99, 102, 241, 0.6);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .quantum-achievement.show {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translate(-50%, -50%) scale(1);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .cosmic-message {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            position: fixed;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            top: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            right: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: rgba(0, 0, 0, 0.9);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            backdrop-filter: blur(20px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            padding: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 15px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border: 2px solid #6366f1;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            max-width: 300px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            z-index: 1000;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translateX(400px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transition: transform 0.5s ease-in-out;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .cosmic-message.show {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translateX(0);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .symphony-controls {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            position: fixed;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            bottom: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            left: 50%;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translateX(-50%);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: rgba(0, 0, 0, 0.8);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            backdrop-filter: blur(15px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            padding: 15px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            display: flex;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            gap: 10px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            z-index: 1000;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border: 2px solid #fbbf24;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .symphony-btn {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            padding: 10px 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border: none;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 10px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: linear-gradient(45deg, #6366f1, #8b5cf6);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            color: white;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            cursor: pointer;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            font-weight: bold;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transition: all 0.3s ease;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .symphony-btn:hover {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translateY(-2px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .heart-coherence {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            position: fixed;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            top: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            left: 50%;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transform: translateX(-50%);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: rgba(0, 0, 0, 0.8);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            backdrop-filter: blur(15px);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            padding: 10px 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 20px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border: 2px solid #ec4899;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            z-index: 1000;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            text-align: center;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .coherence-bar {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            width: 200px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            height: 10px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: rgba(255, 255, 255, 0.2);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 5px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            margin-top: 5px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            overflow: hidden;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        .coherence-fill {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            height: 100%;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            background: linear-gradient(90deg, #ec4899, #fbbf24);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            border-radius: 5px;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            transition: width 0.5s ease;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </style>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+</head>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+<body>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- COSMOS SAGRADO -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="cosmic-container"></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="stellar-particles" id="stellarParticles"></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- PANEL MAESTRO -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="master-control-panel">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div class="cosmic-title">🌌 PULSARIUM HELIOSÓFICO</div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="text-align: center; color: #fbbf24; margin-bottom: 15px; font-size: 14px;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            La Sinfonía Cósmica Viviente
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div class="sacred-scale">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div style="text-align: center; margin-bottom: 15px; color: #fbbf24; font-weight: bold;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                🎼 ESCALA ARMÓNICA SAGRADA
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>☀️ SOL (1/1)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #fbbf24;">432 Hz - Do</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>☿️ MERCURIO (1/3)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #c0c0c0;">144 Hz - Sol</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>♀️ VENUS (3/8)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #ff69b4;">162 Hz - La♭</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>🌍 TIERRA (2/5)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #4169e1;">172.8 Hz - La</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>♂️ MARTE (4/9)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #cd5c5c;">192 Hz - Si</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>🪨 ASTEROIDES (15/32)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #a0a0a0;">202.5 Hz - Do#</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>♃ JÚPITER (1/8)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #ff8c00;">54 Hz - Do</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="scale-item">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span>♄ SATURNO (1/5)</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <span style="color: #f0e68c;">86.4 Hz - Mi</span>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="display: flex; gap: 10px; margin-top: 20px;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <button onclick="activateCosmicSymphony()" style="flex:1; padding:12px; background:linear-gradient(45deg,#6366f1,#8b5cf6); color:white; border:none; border-radius:10px; cursor:pointer; font-weight:bold;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                🎵 SINCRONIZAR
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <button onclick="revealQuantumConnections()" style="flex:1; padding:12px; background:linear-gradient(45deg,#10b981,#059669); color:white; border:none; border-radius:10px; cursor:pointer; font-weight:bold;">
+        <button onclick="activateAudioSystem()" style="flex:1; padding:12px; background:linear-gradient(45deg,#ec4899,#fbbf24); color:white; border:none; border-radius:10px; cursor:pointer; font-weight:bold; margin-top:10px;">
+            🔊 ACTIVAR SONIDO
+        </button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                🌟 CONEXIONES
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- COHERENCIA CARDÍACA -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="heart-coherence">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div>💙 COHERENCIA CARDÍACA</div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div class="coherence-bar">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <div class="coherence-fill" id="coherenceFill" style="width: 50%;"></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="font-size: 12px; margin-top: 5px;">BPM: <span id="bpmDisplay">72</span></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- SISTEMA SOLAR SAGRADO -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="solar-system-master" id="solarSystemMaster">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div class="celestial-sun" onclick="playSolarFrequency()"></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <!-- SVG para conexiones armónicas -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <svg class="harmonic-connections" id="harmonicConnections">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            <defs>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                <linearGradient id="cosmicGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    <stop offset="0%" stopColor="#FFD700" />
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    <stop offset="25%" stopColor="#4169E1" />
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    <stop offset="50%" stopColor="#FF69B4" />
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    <stop offset="75%" stopColor="#40E0D0" />
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    <stop offset="100%" stopColor="#4B0082" />
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                </linearGradient>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            </defs>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </svg>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- CONTROLES DE SINFONÍA -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="symphony-controls">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <button class="symphony-btn" onclick="setMode('observacion')">👁️ OBSERVACIÓN</button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <button class="symphony-btn" onclick="setMode('resonancia')">💙 RESONANCIA</button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <button class="symphony-btn" onclick="setMode('sinfonia')">👥 SINFONÍA</button>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- LOGRO CUÁNTICO -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="quantum-achievement" id="quantumAchievement">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="font-size: 48px; margin-bottom: 20px;">🌠</div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <h2 style="margin-bottom: 15px; font-size: 32px;">COHERENCIA CÓSMICA ALCANZADA</h2>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <p style="font-size: 18px; color: #fef3c7; margin-bottom: 25px;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            "Los planetas no orbitan al azar. Cantan."
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </p>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="font-size: 24px; color: #fef3c7;">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            Pitágoras • Kepler • Tú
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <!-- MENSAJE CÓSMICO -->
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <div class="cosmic-message" id="cosmicMessage">
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div style="color: #fbbf24; font-weight: bold; margin-bottom: 10px;">🌠 REVELACIÓN CÓSMICA</div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        <div id="messageContent" style="font-size: 14px; line-height: 1.4;"></div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    </div>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    <script>
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        // REVELACIÓN CÓSMICA COMPLETA
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        const cosmicRevelation = [
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'SOL', freq: 432.0, color: '#FFD700', size: 100, distance: 0, speed: 0, ratio: '1/1', note: 'Do', meaning: 'El Corazón Universal', symbol: '☀️' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'MERCURIO', freq: 144.0, color: '#C0C0C0', size: 14, distance: 100, speed: 0.045, ratio: '1/3', note: 'Sol', meaning: 'La Mente Veloz', symbol: '☿️' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'VENUS', freq: 162.0, color: '#FF69B4', size: 20, distance: 140, speed: 0.035, ratio: '3/8', note: 'La♭', meaning: 'El Amor Puro', symbol: '♀️' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'TIERRA', freq: 172.8, color: '#4169E1', size: 22, distance: 180, speed: 0.03, ratio: '2/5', note: 'La', meaning: 'La Nota Azul del Dualismo', symbol: '🌍' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'MARTE', freq: 192.0, color: '#CD5C5C', size: 18, distance: 220, speed: 0.025, ratio: '4/9', note: 'Si', meaning: 'El Guerrero Disonante', symbol: '♂️' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'ASTEROIDES', freq: 202.5, color: '#A0A0A0', size: 8, distance: 250, speed: 0.022, ratio: '15/32', note: 'Do#', meaning: 'La Tensión Creativa', symbol: '🪨' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'JÚPITER', freq: 54.0, color: '#FF8C00', size: 50, distance: 320, speed: 0.015, ratio: '1/8', note: 'Do', meaning: 'La Nueva Octava', symbol: '♃' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'SATURNO', freq: 86.4, color: '#F0E68C', size: 45, distance: 400, speed: 0.01, ratio: '1/5', note: 'Mi', meaning: 'La Quinta Perfecta', symbol: '♄' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'URANO', freq: 61.7, color: '#40E0D0', size: 35, distance: 480, speed: 0.007, ratio: '~1/7', note: 'Fa#', meaning: 'La Séptima Mística', symbol: '♅' },
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            { name: 'NEPTUNO', freq: 66.5, color: '#4B0082', size: 33, distance: 560, speed: 0.005, ratio: '~2/13', note: 'Sol', meaning: 'La Disolución en el Silencio', symbol: '♆' }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        ];
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let quantumAudioContext = null;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let cosmicAnimationId = null;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        const sacredAngles = {};
+// Inicializar ángulos aleatorios para movimiento orbital
+cosmicRevelation.slice(1).forEach((body, index) => {
+    sacredAngles[body.name] = Math.random() * 360;
+});
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let connectionsVisible = false;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let currentMode = 'observacion';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let heartCoherence = 0.5;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        let bpm = 72;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        // INICIALIZACIÓN MAESTRA
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        function initMasterPulsarium() {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            createStellarField();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            createSacredSolarSystem();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            startCosmicAnimation();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            startHeartCoherenceSimulation();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            console.log("🌌 PULSARIUM HELIOSÓFICO INICIADO - La Sinfonía Cósmica está Viva");
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            showQuantumMessage("Bienvenido al Pulsarium Heliosófico\n🎵 Sintoniza con la Música de las Esferas");
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        function createStellarField() {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const container = document.getElementById('stellarParticles');
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            for (let i = 0; i < 200; i++) {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                const particle = document.createElement('div');
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.className = 'stellar-particle';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.width = (Math.random() * 4 + 1) + 'px';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.height = particle.style.width;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.left = Math.random() * 100 + '%';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.animationDelay = (Math.random() * 30) + 's';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.animationDuration = (20 + Math.random() * 20) + 's';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                particle.style.background = `rgba(255, 255, 255, ${0.3 + Math.random() * 0.7})`;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                container.appendChild(particle);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        function createSacredSolarSystem() {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const system = document.getElementById('solarSystemMaster');
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            cosmicRevelation.slice(1).forEach((body, index) => {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                // Órbita sagrada
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                const orbit = document.createElement('div');
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                orbit.className = 'sacred-orbit';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                orbit.style.width = body.distance * 2 + 'px';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                orbit.style.height = body.distance * 2 + 'px';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                orbit.style.borderColor = body.color;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                system.appendChild(orbit);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                // Cuerpo celestial maestro
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                const celestialBody = document.createElement('div');
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.className = 'planet-master';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.style.width = body.size + 'px';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.style.height = body.size + 'px';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.style.background = `radial-gradient(circle at 35% 35%, ${body.color}, ${darkenColor(body.color, 30)})`;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.style.left = '50%';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.style.top = '50%';
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.innerHTML = `${body.symbol}<br>${body.ratio}`;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.dataset.name = body.name;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.dataset.freq = body.freq;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.dataset.ratio = body.ratio;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                celestialBody.dataset.note = body.note;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                system.appendChild(celestialBody);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                // Inicializar ángulos sagrados
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                sacredAngles[body.name] = index * 36;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                // Evento de revelación
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                // Evento de revelación
+                celestialBody.addEventListener('click', () => {
+                    playSacredFrequency(body.freq, body.color, body.name);
+                    revealCosmicTruth(body);
+                    createHarmonicRipple(celestialBody);
+                });
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    playSacredFrequency(body.freq, body.color, body.name);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    revealCosmicTruth(body);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                    createHarmonicRipple(celestialBody);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                });
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            });
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+function startCosmicAnimation() {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    function animateCosmos() {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        const speedMultiplier = currentMode === 'resonancia' ? (bpm / 60) : 1;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        cosmicRevelation.slice(1).forEach(body => {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const element = document.querySelector(`.planet-master[data-name="${body.name}"]`);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            if (!element) return;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            sacredAngles[body.name] = (sacredAngles[body.name] + body.speed * speedMultiplier) % 360;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const rad = sacredAngles[body.name] * Math.PI / 180;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const x = body.distance * Math.cos(rad);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            const y = body.distance * Math.sin(rad);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            element.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            // Efecto de pulso orgánico para la Tierra en modo resonancia
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            if (body.name === 'TIERRA' && currentMode === 'resonancia') {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                const pulseScale = 1 + heartCoherence * 0.2;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+                element.style.transform += ` scale(${pulseScale})`;
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        });
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        // Actualizar conexiones si están visibles
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        if (connectionsVisible) {
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+            updateQuantumConnections();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        cosmicAnimationId = requestAnimationFrame(animateCosmos);
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    }
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+    animateCosmos();
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+}
+
+@keyframes soundRipple {
+    0% { 
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0.7; 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0; 
+    }
+}
+        }
+

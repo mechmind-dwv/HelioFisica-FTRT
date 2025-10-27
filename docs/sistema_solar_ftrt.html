@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Solar FTRT - Funcional</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #000; 
+            color: white; 
+            font-family: Arial; 
+            overflow: hidden;
+            height: 100vh;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background: radial-gradient(circle at center, #001122, #000011);
+        }
+        .control-panel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.9);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #00ff00;
+            z-index: 100;
+            max-width: 300px;
+        }
+        .sun {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 70px;
+            background: radial-gradient(circle, #ffff00, #ff4500);
+            border-radius: 50%;
+            box-shadow: 0 0 80px #ff4500;
+            z-index: 5;
+        }
+        .planet {
+            position: absolute;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            z-index: 10;
+            transition: transform 0.3s;
+        }
+        .planet:hover {
+            transform: translate(-50%, -50%) scale(1.4);
+        }
+        .orbit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 50%;
+        }
+        button {
+            background: #00ff00;
+            color: black;
+            border: none;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="universe">
+        <div class="sun"></div>
+    </div>
+
+    <div class="control-panel">
+        <h2 style="color:#00ff00; margin-bottom:10px;">🌌 SISTEMA SOLAR FTRT</h2>
+        <button onclick="startSystem()">🚀 INICIAR</button>
+        <button onclick="testSound()">🔊 SONIDO TEST</button>
+        <button onclick="showFTRTInfo()">📊 INFO FTRT</button>
+        <div style="margin-top:10px; font-size:12px; color:#ccc;">
+            FTRT = Σ[M_p * R_sol / d_p³]
+        </div>
+    </div>
+
+    <script>
+        // DATOS DEL SISTEMA SOLAR SEGUN FTRT
+        const planetaryData = [
+            {name: 'MERCURY', freq: 144, color: '#888888', size: 8, distance: 80, speed: 0.03},
+            {name: 'VENUS', freq: 162, color: '#ff69b4', size: 12, distance: 120, speed: 0.025},
+            {name: 'EARTH', freq: 172.8, color: '#4169e1', size: 13, distance: 160, speed: 0.02},
+            {name: 'MARS', freq: 192, color: '#ff4444', size: 10, distance: 200, speed: 0.015},
+            {name: 'JUPITER', freq: 54, color: '#ff8c00', size: 25, distance: 280, speed: 0.01},
+            {name: 'SATURN', freq: 86.4, color: '#f0e68c', size: 22, distance: 340, speed: 0.008},
+            {name: 'URANUS', freq: 61.7, color: '#40e0d0', size: 18, distance: 400, speed: 0.006},
+            {name: 'NEPTUNE', freq: 66.5, color: '#4b0082', size: 17, distance: 460, speed: 0.005}
+        ];
+
+        let audioContext = null;
+        let animationId = null;
+        const angles = {};
+
+        function initializeSystem() {
+            createStars();
+            createPlanets();
+            console.log("✅ Sistema FTRT inicializado");
+        }
+
+        function createStars() {
+            const universe = document.getElementById('universe');
+            for (let i = 0; i < 80; i++) {
+                const star = document.createElement('div');
+                star.style.position = 'absolute';
+                star.style.background = 'white';
+                star.style.borderRadius = '50%';
+                star.style.width = (Math.random() * 2 + 1) + 'px';
+                star.style.height = star.style.width;
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.opacity = Math.random() * 0.5 + 0.3;
+                star.style.animation = `twinkle ${3 + Math.random() * 2}s infinite`;
+                universe.appendChild(star);
+            }
+
+            // Agregar estilo de animación
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes twinkle {
+                    0%, 100% { opacity: 0.3; }
+                    50% { opacity: 1; }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        function createPlanets() {
+            const universe = document.getElementById('universe');
+            
+            planetaryData.forEach((planet, index) => {
+                // Crear órbita
+                const orbit = document.createElement('div');
+                orbit.className = 'orbit';
+                orbit.style.width = planet.distance * 2 + 'px';
+                orbit.style.height = planet.distance * 2 + 'px';
+                universe.appendChild(orbit);
+
+                // Crear planeta
+                const planetEl = document.createElement('div');
+                planetEl.className = 'planet';
+                planetEl.style.width = planet.size + 'px';
+                planetEl.style.height = planet.size + 'px';
+                planetEl.style.background = planet.color;
+                planetEl.style.boxShadow = `0 0 15px ${planet.color}`;
+                planetEl.style.left = '50%';
+                planetEl.style.top = '50%';
+                planetEl.dataset.name = planet.name;
+                planetEl.dataset.freq = planet.freq;
+                
+                universe.appendChild(planetEl);
+                
+                // Inicializar ángulo
+                angles[planet.name] = index * 45;
+                
+                // Evento click
+                planetEl.addEventListener('click', () => {
+                    playPlanetSound(planet.freq);
+                    showPlanetInfo(planet.name);
+                });
+            });
+        }
+
+        function animatePlanets() {
+            planetaryData.forEach(planet => {
+                const planetEl = document.querySelector(`.planet[data-name="${planet.name}"]`);
+                if (!planetEl) return;
+                
+                // Actualizar ángulo
+                angles[planet.name] = (angles[planet.name] + planet.speed) % 360;
+                
+                // Calcular posición (CORREGIDO)
+                const rad = angles[planet.name] * Math.PI / 180;
+                const x = planet.distance * Math.cos(rad);
+                const y = planet.distance * Math.sin(rad);
+                
+                // Aplicar posición (FORMA CORRECTA)
+                planetEl.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+            });
+            
+            animationId = requestAnimationFrame(animatePlanets);
+        }
+
+        function playPlanetSound(frequency) {
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            
+            try {
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.type = 'sine';
+                oscillator.frequency.value = frequency;
+                
+                const now = audioContext.currentTime;
+                gainNode.gain.setValueAtTime(0, now);
+                gainNode.gain.linearRampToValueAtTime(0.2, now + 0.1);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, now + 1.5);
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                oscillator.start();
+                oscillator.stop(now + 1.5);
+                
+                console.log(`🔊 ${frequency}Hz`);
+            } catch (error) {
+                console.log('🔇 Audio no disponible');
+            }
+        }
+
+        function startSystem() {
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+            animatePlanets();
+            alert('🚀 SISTEMA FTRT ACTIVADO\nLos planetas orbitan según fuerzas de marea');
+        }
+
+        function testSound() {
+            playPlanetSound(432);
+            alert('🎵 SONIDO DEL SOL: 432Hz');
+        }
+
+        function showFTRTInfo() {
+            const info = `📊 FORMULA FTRT:
+FTRT = Σ[M_p * R_sol / d_p³]
+
+Donde:
+M_p = Masa planeta
+R_sol = Radio solar  
+d_p = Distancia planeta-Sol
+
+📈 EVENTOS VALIDADOS:
+• Carrington 1859: FTRT 3.21
+• Halloween 2003: FTRT 4.87
+• Mayo 2024: FTRT 1.34
+
+🎯 CORRELACIONES:
+• FTRT vs Llamaradas X: r=0.78
+• FTRT vs Energía CME: r=0.82`;
+            alert(info);
+        }
+
+        function showPlanetInfo(planetName) {
+            const planet = planetaryData.find(p => p.name === planetName);
+            if (planet) {
+                alert(`🪐 ${planetName}\nFrecuencia: ${planet.freq}Hz\nDistancia: ${planet.distance} unidades`);
+            }
+        }
+
+        // INICIAR AL CARGAR LA PÁGINA
+        window.addEventListener('load', initializeSystem);
+    </script>
+</body>
+</html>

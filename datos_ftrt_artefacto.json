@@ -1,0 +1,70 @@
+{
+  "predicciones": [
+    {
+      "fecha": "2025-03-20",
+      "ftrt": 18.555,
+      "frecuencia_resonante": 596.3925402455503,
+      "color_alerta": "#FF0000",
+      "planetas_criticos": [
+        "JÚPITER",
+        "SATURNO"
+      ]
+    },
+    {
+      "fecha": "2025-06-25",
+      "ftrt": 2.688,
+      "frecuencia_resonante": 487.6540326638797,
+      "color_alerta": "#FF0000",
+      "planetas_criticos": [
+        "VENUS",
+        "MARTE"
+      ]
+    },
+    {
+      "fecha": "2025-10-27",
+      "ftrt": 1.536,
+      "frecuencia_resonante": 456.1563015541359,
+      "color_alerta": "#FFA500",
+      "planetas_criticos": [
+        "MERCURIO"
+      ]
+    },
+    {
+      "fecha": "2025-12-25",
+      "ftrt": 1.332,
+      "frecuencia_resonante": 448.135747538523,
+      "color_alerta": "#FFFF00",
+      "planetas_criticos": [
+        "VENUS",
+        "JÚPITER"
+      ]
+    }
+  ],
+  "alertas_sonoras": [
+    {
+      "fecha": "2025-03-20",
+      "frecuencia": 596.3925402455503,
+      "intensidad": 1.0,
+      "tipo_sonido": "alerta_extrema"
+    },
+    {
+      "fecha": "2025-06-25",
+      "frecuencia": 487.6540326638797,
+      "intensidad": 0.5376000000000001,
+      "tipo_sonido": "alerta_extrema"
+    },
+    {
+      "fecha": "2025-10-27",
+      "frecuencia": 456.1563015541359,
+      "intensidad": 0.30720000000000003,
+      "tipo_sonido": "alerta_critica"
+    },
+    {
+      "fecha": "2025-12-25",
+      "frecuencia": 448.135747538523,
+      "intensidad": 0.2664,
+      "tipo_sonido": "alerta_elevada"
+    }
+  ],
+  "resonancias_planetarias": []
+}
