@@ -24,8 +24,8 @@ python -m pytest tests/ -v || echo "⚠️  Algunos tests fallaron, continuando.
 
 # Ejecutar ejemplos básicos
 echo "🎯 Ejecutando ejemplos..."
-python examples/basic_usage.py
-python examples/case_studies.py
-python examples/predictions.py
+PYTHONPATH=. python examples/basic_usage.py
+PYTHONPATH=. python examples/case_studies.py
+PYTHONPATH=. python examples/predictions.py
 
 echo "✅ INSTALACIÓN COMPLETADA"
