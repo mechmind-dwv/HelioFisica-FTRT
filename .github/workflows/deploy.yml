@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run Tests
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Run Tests
         run: python -m pytest
       - name: Deploy to Production
         run: ./deploy.sh
