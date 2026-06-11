@@ -40,3 +40,9 @@ tmp/
 
 # Logs
 *.log
+node_modules/
+ftrt_env/
+__pycache__/
+_legacy/
+logs/
+api.log
