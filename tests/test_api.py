@@ -35,7 +35,7 @@ class TestFTRTAPI(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         data = json.loads(response.data)
         self.assertTrue(data['success'])
-        self.assertAlmostEqual(data['data']['ftrt_normalizada'], 1.34, places=2)
+        self.assertAlmostEqual(data['data']['ftrt_normalizada'], 2.53, places=2)
     
     def test_generar_alerta(self):
         """Test generación de alerta"""
@@ -44,7 +44,7 @@ class TestFTRTAPI(unittest.TestCase):
         data = json.loads(response.data)
         self.assertTrue(data['success'])
         self.assertEqual(data['data']['nivel_riesgo'], 'EXTREMO')
-        self.assertAlmostEqual(data['data']['ftrt_normalizada'], 4.87, places=2)
+        self.assertAlmostEqual(data['data']['ftrt_normalizada'], 2.94, places=2)
     
     def test_prediccion(self):
         """Test generación de predicciones"""

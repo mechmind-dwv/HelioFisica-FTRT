@@ -43,26 +43,35 @@ class FTRTCalculator:
         """
         Calcula posición heliocéntrica usando pyephem con precisión NASA
         """
+        if planeta == 'earth':
+            sun = ephem.Sun()
+            sun.compute(fecha)
+            distancia = sun.earth_distance * self.UA
+            return {
+                'distancia': distancia,
+                'longitud': 0.0,
+                'latitud': 0.0
+            }
+
         bodies = {
             'mercury': ephem.Mercury(),
             'venus': ephem.Venus(),
-            'earth': ephem.Earth(),
             'mars': ephem.Mars(),
             'jupiter': ephem.Jupiter(),
             'saturn': ephem.Saturn(),
             'uranus': ephem.Uranus(),
             'neptune': ephem.Neptune()
         }
-        
+
         body = bodies[planeta]
         body.compute(fecha)
-        
+        distancia = body.sun_distance * self.UA
+
         return {
-            'distancia': body.earth_distance * self.UA,
+            'distancia': distancia,
             'longitud': body.hlon,
             'latitud': body.hlat
         }
-    
     def calcular_ftrt_individual(self, planeta, fecha):
         """
         Calcula FTRT para planeta específico: Masa * R_sol / distancia³
@@ -128,3 +137,19 @@ class FTRTCalculator:
                 reverse=True
             )[:3])
         }
+
+    def evaluar_riesgo(self, ftrt_valor):
+        """
+        Evalúa nivel de riesgo dado un valor FTRT normalizado.
+        Retorna (nivel, color).
+        """
+        if ftrt_valor < self.UMBRALES['normal']:
+            return 'NORMAL', '🟢'
+        elif ftrt_valor < self.UMBRALES['moderado']:
+            return 'MODERADO', '🟡'
+        elif ftrt_valor < self.UMBRALES['elevado']:
+            return 'ELEVADO', '🟠'
+        elif ftrt_valor < self.UMBRALES['critico']:
+            return 'CRÍTICO', '🔴'
+        else:
+            return 'EXTREMO', '💜'
